@@ -41,7 +41,7 @@ onAuthStateChanged(auth, (user) => {
     } else {
         // No user is signed in. Redirect to login.
         console.log("No user found, redirecting to login.");
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     }
 });
 
@@ -221,3 +221,4 @@ try {
 } catch (e) {
     console.error("Could not inject spinner keyframes:", e);
 }
+
