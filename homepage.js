@@ -50,7 +50,7 @@ logoutButton.addEventListener('click', async () => {
     try {
         await signOut(auth);
         console.log("User signed out.");
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     } catch (error) {
         console.error("Sign out error:", error);
     }
@@ -221,4 +221,5 @@ try {
 } catch (e) {
     console.error("Could not inject spinner keyframes:", e);
 }
+
 
