@@ -59,7 +59,7 @@ signupForm.addEventListener('submit', async (e) => {
 
         // --- 5. Success and Redirect ---
         alert("Account created successfully! Please log in.");
-        window.location.href = 'login.html'; // Redirect to login page
+        window.location.href = 'index.html'; // Redirect to login page
 
     } catch (error) {
         console.error("Signup error:", error.code, error.message);
@@ -82,4 +82,5 @@ function getFriendlyErrorMessage(errorCode) {
         default:
             return 'An error occurred. Please try again.';
     }
+
 }
